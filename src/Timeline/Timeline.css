@@ -1,4 +1,8 @@
 .Timeline__space {
   height: 200px;
-  padding: 200px;
+}
+
+hr {
+  color: red;
+  width: 80%;
 }
