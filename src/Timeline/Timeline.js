@@ -7,7 +7,7 @@ export default class Timeline extends React.Component {
       <div className="Timeline">
         <div className="Timeline__space"></div>
         <hr />
-        <section className="Timeline__section" id="section1">
+        <section className="Timeline__section blue" id="section1">
           <h2>Section 1</h2>
           <p>In the beginning there was nothing</p>
           <ul>
@@ -33,7 +33,7 @@ export default class Timeline extends React.Component {
             </li>
           </ul>
         </section>
-        <section className="Timeline__section" id="section3">
+        <section className="Timeline__section blue" id="section3">
           <h2>Section 3</h2>
           <p>But Calvin was not a benevolent god...</p>
           <ul>

@@ -10,5 +10,21 @@ hr {
 }
 
 .Timeline__section {
-  height: 100vh;
+  margin: 0px;
+  bottom: 0px;
+  width: 4000px;
+  float: left;
+  height: 100%;
+}
+
+.Timeline__section h2 {
+  font-size: 4em;
+}
+
+.Timeline__section p {
+  width: 600px;
+}
+
+.blue {
+  background: lightblue;
 }
