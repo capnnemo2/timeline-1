@@ -1,5 +1,5 @@
 import React from "react";
-import "../dummyStore";
+import dummyStore from "../dummyStore";
 import "./BasicInfo.css";
 
 export default class BasicInfo extends React.Component {
@@ -7,7 +7,7 @@ export default class BasicInfo extends React.Component {
     return (
       <div className="BasicInfo">
         <ul>
-          {dummyStore.map(event => (
+          {dummyStore.events.map(event => (
             <li key={event.eventId} className="BasicInfo__event">
               <h2>{event.title}</h2>
               <ul>
