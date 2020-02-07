@@ -3,6 +3,12 @@
 }
 
 hr {
-  color: red;
   width: 80%;
+  border: 0;
+  background-color: white;
+  height: 5px;
+}
+
+.Timeline__section {
+  height: 100vh;
 }
