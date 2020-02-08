@@ -8,11 +8,13 @@
 .Timeline::after {
   content: "";
   position: absolute;
-  width: 6px;
+  width: 7px;
   background-color: black;
   top: 0;
   bottom: 0;
-  left: 738px;
+  /* the left positioning doesn't scale well when the browser window size changes */
+  /* maybe this won't matter when it goes horizontal? */
+  left: 54%;
   margin-left: -3px;
 }
 

@@ -4,7 +4,7 @@ export default {
       title: "Alaska 1",
       dates: "Summer 2010",
       location: "Denali, AK",
-      decription: "First summer season of commercial rafting",
+      decription: "First summer season of commercial rafting.",
       eventId: "abc"
     },
     {
@@ -19,7 +19,7 @@ export default {
       title: "Alaska 2",
       dates: "Summer 2011",
       location: "Denali, AK",
-      decription: "Second season rafting",
+      decription: "Second season rafting.",
       eventId: "ghi"
     },
     {
@@ -27,7 +27,23 @@ export default {
       dates: "Winter 2011-2012",
       location: "India, Thailand, Sri Lanka",
       decription:
-        "Commercial rafting in India, diving in Thailand, hitting the beach in Sri Lanka",
+        "Commercial rafting in India, diving in Thailand, hitting the beach in Sri Lanka.",
+      eventId: "jkl"
+    },
+    {
+      title: "India",
+      dates: "Winter 2011-2012",
+      location: "India, Thailand, Sri Lanka",
+      decription:
+        "Commercial rafting in India, diving in Thailand, hitting the beach in Sri Lanka.",
+      eventId: "jkl"
+    },
+    {
+      title: "India",
+      dates: "Winter 2011-2012",
+      location: "India, Thailand, Sri Lanka",
+      decription:
+        "Commercial rafting in India, diving in Thailand, hitting the beach in Sri Lanka.",
       eventId: "jkl"
     }
   ]

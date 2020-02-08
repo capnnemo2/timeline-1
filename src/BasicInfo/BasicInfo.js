@@ -15,8 +15,11 @@ export default class BasicInfo extends React.Component {
                   <ul>
                     <li>{event.dates}</li>
                     <li>{event.location}</li>
+                    {/* event.description doesn't render. why? */}
+                    <li>
+                      <p>{event.description}</p>
+                    </li>
                   </ul>
-                  <p>{event.description}</p>
                 </div>
               </div>
             </li>
