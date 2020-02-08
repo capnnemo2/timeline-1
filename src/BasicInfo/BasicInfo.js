@@ -20,6 +20,7 @@ export default class BasicInfo extends React.Component {
                       <p>{event.description}</p>
                     </li>
                   </ul>
+                  <button type="button">Details</button>
                 </div>
               </div>
             </li>
