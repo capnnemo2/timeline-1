@@ -3,8 +3,8 @@ import dummyStore from "../dummyStore";
 import "./BasicInfo.css";
 
 export default class BasicInfo extends React.Component {
-  handleClick(e) {
-    console.log(e.target.event.eventId);
+  handleClick(eventId) {
+    console.log(eventId);
   }
 
   render() {
@@ -19,11 +19,16 @@ export default class BasicInfo extends React.Component {
                   <ul>
                     <li>{event.dates}</li>
                     <li>{event.location}</li>
-                    {/* event.description doesn't render. why? */}
                     <li>{event.description}</li>
                   </ul>
                   {/* the button needs to find the eventId, send that up to app, which will change state to match the event with the correct eventId */}
-                  <button type="button" onClick={this.handleClick}>
+                  <button
+                    type="button"
+                    onClick={e => {
+                      e.preventDefault();
+                      this.handleClick(event.eventId);
+                    }}
+                  >
                     Details
                   </button>
                 </div>
