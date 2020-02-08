@@ -20,7 +20,7 @@ export default class BasicInfo extends React.Component {
                   <ul>
                     <li>{event.dates}</li>
                     <li>{event.location}</li>
-                    <li>{event.description}</li>
+                    <li>{event.keywords}</li>
                   </ul>
                   <div className="btn_container">
                     <button
