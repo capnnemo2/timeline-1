@@ -3,6 +3,10 @@ import dummyStore from "../dummyStore";
 import "./BasicInfo.css";
 
 export default class BasicInfo extends React.Component {
+  handleClick(e) {
+    console.log(e.target.event.eventId);
+  }
+
   render() {
     return (
       <div className="BasicInfo">
@@ -19,10 +23,7 @@ export default class BasicInfo extends React.Component {
                     <li>{event.description}</li>
                   </ul>
                   {/* the button needs to find the eventId, send that up to app, which will change state to match the event with the correct eventId */}
-                  <button
-                    type="button"
-                    onClick={e => this.props.updateEvent(e.target.value)}
-                  >
+                  <button type="button" onClick={this.handleClick}>
                     Details
                   </button>
                 </div>
