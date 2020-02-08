@@ -6,14 +6,11 @@ export default class EventDetails extends React.Component {
   render() {
     return (
       <div className="EventDetails">
-        <h2>Event</h2>
-        <p>This is a description.</p>
-        <p>{this.props.event.title}</p>
+        <h2>{this.props.details.title}</h2>
+        <p>{this.props.details.dates}</p>
+        <p>{this.props.details.location}</p>
+        <p>{this.props.details.description}</p>
       </div>
     );
   }
 }
-
-EventDetails.defaultProps = {
-  event: {}
-};

@@ -16,11 +16,13 @@ export default class BasicInfo extends React.Component {
                     <li>{event.dates}</li>
                     <li>{event.location}</li>
                     {/* event.description doesn't render. why? */}
-                    <li>
-                      <p>{event.description}</p>
-                    </li>
+                    <li>{event.description}</li>
                   </ul>
-                  <button type="button" onClick={this.props.updateEvent}>
+                  {/* the button needs to find the eventId, send that up to app, which will change state to match the event with the correct eventId */}
+                  <button
+                    type="button"
+                    onClick={e => this.props.updateEvent(e.target.value)}
+                  >
                     Details
                   </button>
                 </div>

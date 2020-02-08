@@ -9,18 +9,18 @@ export default class App extends React.Component {
     super(props);
     this.state = {
       event: {
-        title: "",
-        dates: "",
-        location: "",
-        decription: "",
-        eventId: ""
+        title: "America",
+        dates: "1987-present",
+        location: "California, mostly",
+        description: "Growing up, and continuing to grow",
+        eventId: "1"
       }
     };
   }
 
-  updateEvent(event) {
+  updateEvent = event => {
     this.setState({ event });
-  }
+  };
 
   render() {
     const event = this.state.event;
