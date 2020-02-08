@@ -22,16 +22,24 @@ export default class BasicInfo extends React.Component {
                     <li>{event.location}</li>
                     <li>{event.description}</li>
                   </ul>
-                  {/* need to send eventId up to app, which will change state to match the event with the correct eventId */}
-                  <button
-                    type="button"
-                    onClick={e => {
-                      e.preventDefault();
-                      this.handleClick(event);
-                    }}
-                  >
-                    Details
-                  </button>
+                  <div className="btn_container">
+                    <button
+                      type="button"
+                      className="BasicInfo__btn details"
+                      onClick={e => {
+                        e.preventDefault();
+                        this.handleClick(event);
+                      }}
+                    >
+                      Details
+                    </button>
+                    <button type="button" className="BasicInfo__btn edit">
+                      Edit event
+                    </button>
+                    <button type="button" className="BasicInfo__btn delete">
+                      Delete event
+                    </button>
+                  </div>
                 </div>
               </div>
             </li>

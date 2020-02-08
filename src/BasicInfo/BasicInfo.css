@@ -1,3 +1,31 @@
 ul {
   list-style-type: none;
 }
+
+.btn_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.BasicInfo__btn {
+  padding: 15px;
+  border-radius: 6px;
+  margin-top: 15px;
+  border: 2px solid black;
+  font-weight: 900;
+}
+
+.details {
+  background-color: rgb(92, 224, 218);
+}
+
+.edit {
+  background-color: rgb(222, 226, 162);
+}
+
+.delete {
+  background-color: red;
+  color: white;
+  padding: 15px;
+  border-radius: 6px;
+}
