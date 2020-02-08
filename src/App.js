@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Header/Header";
 import Timeline from "./Timeline/Timeline";
+import EventDetails from "./EventDetails/EventDetails";
 import "./App.css";
 
 export default class App extends React.Component {
@@ -12,6 +13,7 @@ export default class App extends React.Component {
         </header>
         <main>
           <Timeline />
+          <EventDetails />
         </main>
       </div>
     );

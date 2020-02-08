@@ -36,7 +36,7 @@ export default {
       location: "India, Thailand, Sri Lanka",
       decription:
         "Commercial rafting in India, diving in Thailand, hitting the beach in Sri Lanka.",
-      eventId: "jkl"
+      eventId: "mno"
     },
     {
       title: "India",
@@ -44,7 +44,7 @@ export default {
       location: "India, Thailand, Sri Lanka",
       decription:
         "Commercial rafting in India, diving in Thailand, hitting the beach in Sri Lanka.",
-      eventId: "jkl"
+      eventId: "pqr"
     }
   ]
 };
