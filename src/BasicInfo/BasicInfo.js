@@ -9,12 +9,16 @@ export default class BasicInfo extends React.Component {
         <ul>
           {dummyStore.events.map(event => (
             <li key={event.eventId} className="BasicInfo__event">
-              <h2>{event.title}</h2>
-              <ul>
-                <li>{event.dates}</li>
-                <li>{event.location}</li>
-              </ul>
-              <p>{event.description}</p>
+              <div className="container left">
+                <div className="content">
+                  <h2>{event.title}</h2>
+                  <ul>
+                    <li>{event.dates}</li>
+                    <li>{event.location}</li>
+                  </ul>
+                  <p>{event.description}</p>
+                </div>
+              </div>
             </li>
           ))}
         </ul>

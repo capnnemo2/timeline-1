@@ -1,7 +1,5 @@
 import React from "react";
-// import { Route } from "react-router-dom";
 import Header from "./Header/Header";
-import BasicInfo from "./BasicInfo/BasicInfo";
 import Timeline from "./Timeline/Timeline";
 import "./App.css";
 
@@ -13,7 +11,6 @@ export default class App extends React.Component {
           <Header />
         </header>
         <main>
-          <BasicInfo />
           <Timeline />
         </main>
       </div>
